@@ -9,7 +9,8 @@ import numpy as np
 
 def palindromos2():
     ''' Restorna uma lista de números palíndromos formados
-    pela multiplicação entre outros dois números de dois dígitos'''
+    pela multiplicação entre outros dois números de dois dígitos
+    '''
     
     x1 = 99
     x2 = 99

@@ -21,5 +21,5 @@ def menorMultiplo(n):
             init += 1
     return n_iter, chute
 
-# RESPOSTA
+# Resposta
 print(menorMultiplo(20))

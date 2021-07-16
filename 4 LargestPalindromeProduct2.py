@@ -8,7 +8,7 @@
 import numpy as np
 
 def palindromos():
-    ''' Restorna uma lista de números palíndromos formados
+    ''' Retorna uma lista de números palíndromos formados
     pela multiplicação entre outros dois números de dois dígitos'''
     
     palindromos = []
@@ -29,5 +29,5 @@ def palindromos():
     return list(sorted(set(palindromos)))
 
 
-# RESPOSTA
+# Resposta
 print(max(palindromos()))
