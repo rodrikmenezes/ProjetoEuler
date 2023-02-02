@@ -20,7 +20,6 @@ def fatoresPrimos(numero):
 
     return fatores
 
-
 # Resposta final do problema
 print(max(fatoresPrimos(600851475143)))
 

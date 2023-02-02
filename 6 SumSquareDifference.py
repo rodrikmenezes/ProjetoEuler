@@ -19,7 +19,5 @@ def sumSquareDiff(x):
 
 
 # Testes
-print(sumSquareDiff(10))
 print(sumSquareDiff(100))
-print(sumSquareDiff(1000))
 

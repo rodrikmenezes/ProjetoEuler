@@ -57,7 +57,7 @@ n = 3
 while fibonacci(n) < 4000000:
     resposta = soma_pares_fibonacci(n)
     n += 1
-print(resposta)
+print('Minha resposta: {}'.format(resposta))
 
 
 # RESPOSTA 2 (Solução alternativa)
@@ -71,4 +71,4 @@ while c < limite:
     a = b + c
     b = c + a
     c = a + b
-print(soma)
+print('Resposta Alternativa: {}'.format(soma))

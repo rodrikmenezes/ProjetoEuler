@@ -6,7 +6,7 @@
 # numbers from 1 to 20?
 # =============================================================================
 
-def menorMultiplo(n):
+def quantidadeMultiplos(n):
     ''' Retorna o menor número divisível pela sequencia de 1 a n '''
     init = 2
     chute = 1000
@@ -19,7 +19,7 @@ def menorMultiplo(n):
             init = 2
         else:
             init += 1
-    return n_iter, chute
+    return chute
 
 # Resposta
-print(menorMultiplo(20))
+print(quantidadeMultiplos(20))

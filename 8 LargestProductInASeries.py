@@ -30,9 +30,7 @@ def maiorProduto(lista, n):
         n += 1
     return lista_s, r
 
-# Testes
-# print(maiorProduto([2, 3, 7, 2, 4], 2))       # 3 x 7 = 21
-# print(maiorProduto([2, 3, 7, 2, 4], 3))       # 7 x 2 x 4 = 56
+# Teste
 # print(maiorProduto(num_int, 4))               # 9 × 9 × 8 × 9 = 5832
 
 # Resposta
