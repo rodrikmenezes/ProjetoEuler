@@ -33,7 +33,7 @@ def solve():
 
     # Perform the search through all overlapping m-long subsets
     n = len(integers)
-    m = 13
+    m = 12
     answer = 0
     for i in range(n - m + 1):
         subset = integers[i:i+m]
